@@ -1,6 +1,6 @@
 // Replace local require by a lazy loader
 var globalRequire = require;
-require = function () {};
+//require = function () {};
 
 // Expose submodules
 var exports = module.exports = {
